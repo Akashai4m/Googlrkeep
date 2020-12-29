@@ -1,0 +1,53 @@
+.edit {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	display: grid;
+	place-items: center;
+	background-color: whitesmoke;
+}
+
+.edit-note {
+	width: 80vw;
+	max-width: 600px;
+	padding: 20px 20px 60px 20px;
+	background-color: white;
+	margin: 0 auto;
+	border-radius: 8px;
+	position: relative;
+}
+
+.delete-btn,
+.done-btn {
+	position: absolute;
+	border-radius: 8px;
+	height: 36px;
+	cursor: pointer;
+	margin-top: 10px;
+	background-color: whitesmoke;
+}
+
+.delete-btn {
+	left: 10px;
+	width: 36px;
+	opacity: 0.7;
+}
+
+.delete-btn:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.done-btn {
+	right: 10px;
+	width: 60px;
+	font-size: 16px;
+	opacity: 0.7;
+}
+.done-btn:hover {
+	opacity: 1;
+	transform: scale(1.1);
+	font-weight: bold;
+}
