@@ -1,5 +1,4 @@
 ## :large_orange_diamond: About site
-- Site is live at - https://keep0.now.sh
 - Any person around the world, can create, edit or delete any note on this site without any login 
 - Changes will be instantly saved on the global database.
 - Theme used while creating website is inspired by Google-Keep.
