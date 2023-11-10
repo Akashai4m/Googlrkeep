@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Sticky Notes</title>
+				<title>Notify</title>
 				<link rel='icon' href='/logos/keep-logo.png' />
 				<link rel='stylesheet' href='/styles/components/header.css' />
 				<link rel='stylesheet' href='/styles/components/create-note.css' />

@@ -5,6 +5,8 @@ import { database } from '../firebase'
 const CreateNote = ({ setMessage1 }) => {
 	const [noteTitle, setNoteTitle] = useState('')
 	const [noteText, setNoteText] = useState('')
+	const [noteTagline, setNoteTagline] = useState('')
+
 
 	const submitNote = async () => {
 		if (noteTitle.length === 0 && noteText.length === 0) {
@@ -25,6 +27,7 @@ const CreateNote = ({ setMessage1 }) => {
 		creteNote(dataObj.title, dataObj.description)
 		setNoteTitle('')
 		setNoteText('')
+		setNoteTagline('')
 		setMessage1('')
 	}
 
@@ -37,6 +40,13 @@ const CreateNote = ({ setMessage1 }) => {
 				value={noteTitle}
 				onChange={(e) => setNoteTitle(e.target.value)}
 			/>
+			{/* <input
+				type='text'
+				className='note-title2'
+				placeholder='Tagline'
+				value={noteTagline}
+				onChange={(e) => setNoteTagline(e.target.value)}
+			/> */}
 			<textarea
 				className='note-area'
 				value={noteText}

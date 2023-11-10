@@ -11,10 +11,15 @@
 		"start": "next start"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.11.1",
+		"@emotion/styled": "^11.11.0",
+		"@mui/icons-material": "^5.14.16",
+		"@mui/material": "^5.14.17",
+		"@mui/styled-engine-sc": "^6.0.0-alpha.5",
 		"firebase": "^8.2.1",
 		"next": "^10.0.4",
 		"react": "16.13.1",
-		"react-dom": "16.13.1"
-	},
-	"devDependencies": {}
+		"react-dom": "16.13.1",
+		"styled-components": "^6.1.1"
+	}
 }

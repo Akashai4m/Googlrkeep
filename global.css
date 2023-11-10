@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 body {
-	background-color: whitesmoke;
+	background-color: #aaa7cc;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #202124;
 	line-height: 1.5;
 	margin: 0;
-	padding: 30px 5vw 0 5vw;
+	padding: 10px 5vw 0 5vw;
+	
 }
+
+.edit{
+	background-color: #aaa7cc;
+}
+
 
 main {
 	width: 100%;
@@ -19,6 +25,9 @@ main {
 	margin: 0 auto;
 	position: relative;
 	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .note-title {
@@ -27,11 +36,22 @@ main {
 	margin-bottom: 10px;
 }
 
+.note-title2 {
+	font-weight: 400;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+
 textarea {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	resize: none;
 	height: 7rem;
+}
+.note{
+	border-color:2px solid;
+	border-radius: 20px;
 }
 
 input,
@@ -48,3 +68,26 @@ button {
 	font-size: 20px;
 	font-weight: 400;
 }
+
+.pagination{
+	padding: 20px 30px;
+	margin-bottom: 1px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+button{
+	color: white;
+	height: 5vh;
+	width: 8vw;
+	margin: 20px;
+	background-color: #42b883;
+	cursor: pointer;
+	border-radius: 50px;
+}
+
+
+
+  
+  
